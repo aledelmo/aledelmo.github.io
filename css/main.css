@@ -66,11 +66,11 @@ html {
 }
 
 html, body {
-    height: 100%;
+    width: 100%;
 }
 
 body {
-    background: #151515;
+    background: #ffffff;
     font-family: "lora-regular", serif;
     font-size: 1.7rem;
     line-height: 3rem;
@@ -91,7 +91,7 @@ a, a:visited {
 }
 
 a:hover, a:focus, a:active {
-    color: darkslateblue;
+    color: #810007;
     outline: 0;
 }
 
@@ -341,7 +341,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: darkslateblue;
+    background: #ffffff;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -350,7 +350,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: darkslateblue;
+    color: #ffffff;
 }
 
 dd {
@@ -486,7 +486,7 @@ img.pull-left {
 }
 
 .pace .pace-progress {
-    background: darkslateblue;
+    background: #111111;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -507,7 +507,7 @@ img.pull-left {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #151515;
+    background: #ffffff;
     z-index: 800;
     height: 100%;
     width: 100%;
@@ -532,7 +532,7 @@ img.pull-left {
     border-top: 11px solid rgba(255, 255, 255, 0.1);
     border-right: 11px solid rgba(255, 255, 255, 0.1);
     border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-    border-left: 11px solid darkslateblue;
+    border-left: 11px solid #810007;
     -webkit-animation: load 1.1s infinite linear;
     animation: load 1.1s infinite linear;
     display: block;
@@ -592,7 +592,6 @@ select {
     font-family: "poppins-regular", sans-serif;
     font-size: 1.5rem;
     line-height: 3rem;
-    max-width: 100%;
     background: transparent;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     -moz-transition: all 0.3s ease-in-out;
@@ -664,8 +663,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: slategray;
-    border-bottom: 1px solid darkslateblue;
+    color: #754a4d;
+    border-bottom: 1px solid #810007;
 }
 
 label, legend {
@@ -824,8 +823,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-    border: 3px solid darkslateblue;
-    color: darkslateblue;
+    border: 3px solid #810007;
+    color: #810007;
 }
 
 button::-moz-focus-inner, input::-moz-focus-inner {
@@ -1034,7 +1033,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: darkslateblue;
+    color: #810007;
 }
 
 .stats-tabs li a em {
@@ -1201,11 +1200,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+
     text-align: center;
-    margin-bottom: 3.6rem;
     position: relative;
 }
 
@@ -1218,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h5 {
-    color: darkslateblue;
+    color: #810007;
     font-size: 1.6rem;
     line-height: 1.875;
     margin-bottom: 0.3rem;
@@ -1317,13 +1313,13 @@ header .logo a {
     height: 40px;
     margin-left: 20px;
     margin-top: 13px;
-    display: block;
+    display: inline-flex;
     position: relative;
 }
 
 .menu-toggle span {
     display: block;
-    background-color: darkslateblue;
+    background-color: #810007;
     width: 24px;
     height: 3px;
     margin-top: -1.5px;
@@ -1385,7 +1381,7 @@ header .logo a {
 }
 
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-    background-color: darkslateblue;
+    background-color: #810007;
     -moz-transition-delay: 0s, 0.2s;
     -o-transition-delay: 0s, 0.2s;
     -webkit-transition-delay: 0s, 0.2s;
@@ -1420,7 +1416,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-    background: slategray;
+    background: #919191;
     padding: 24px 30px 42px;
     margin: 0;
     width: 100%;
@@ -1446,13 +1442,13 @@ header .logo a {
 }
 
 .main-navigation li a:hover {
-    color: darkslateblue;
+    color: #810007;
     padding-left: 1rem;
 }
 
 .main-navigation li.current > a {
     background: none;
-    color: darkslateblue;
+    color: #810007;
 }
 
 /**
@@ -1511,7 +1507,7 @@ header .logo a {
     width: 100%;
     height: 100%;
     background: #111111;
-    opacity: .85;
+    opacity: .40;
 }
 
 .intro-content {
@@ -1528,7 +1524,7 @@ header .logo a {
     font-family: "poppins-medium", sans-serif;
     font-size: 8.4rem;
     line-height: 1.071;
-    max-width: 900px;
+    /*max-width: 900px;*/
     margin-top: 0;
     margin-bottom: .6rem;
     margin-left: auto;
@@ -1537,7 +1533,7 @@ header .logo a {
 }
 
 .intro-content h5 {
-    color: slategray;
+    color: #754a4d;
     font-family: "poppins-bold", sans-serif;
     font-size: 2.3rem;
     line-height: 1.565;
@@ -1590,7 +1586,7 @@ header .logo a {
 }
 
 .intro-content .button:hover, .intro-content .button:focus {
-    border-color: slategray;
+    border-color: #754a4d;
 }
 
 .intro-content .button::after {
@@ -1606,10 +1602,10 @@ header .logo a {
 
 .intro-social {
     display: block;
-    position: absolute;
+    position: center;
     width: 100%;
     left: 0;
-    bottom: 7.2rem;
+    bottom: 20px;
     font-size: 3.3rem;
     margin: 0;
     padding: 0;
@@ -1626,7 +1622,7 @@ header .logo a {
 }
 
 .intro-social li a:hover, .intro-social li a:focus {
-    color: slategray;
+    color: #754a4d;
 }
 
 /**
@@ -1724,9 +1720,6 @@ header .logo a {
 }
 
 .intro-info {
-    margin-top: 4.2rem;
-    margin-right: -30px;
-    margin-left: -30px;
 }
 
 .intro-info img {
@@ -1745,8 +1738,6 @@ header .logo a {
 .about-content {
     position: relative;
     text-align: left;
-    max-width: 850px;
-    margin-bottom: 3.6rem;
 }
 
 .about-content h3 {
@@ -1763,7 +1754,6 @@ header .logo a {
 
 .about-content .info-list li {
     padding: 0 0 1.5rem 0;
-    margin-bottom: .6rem;
 }
 
 .about-content .info-list li strong {
@@ -1784,7 +1774,6 @@ header .logo a {
 }
 
 .about-content .skill-bars {
-    margin-top: 6rem;
 }
 
 .button-section {
@@ -1874,7 +1863,7 @@ header .logo a {
 }
 
 #resume .resume-header h2 {
-    color: darkslateblue;
+    color: #810007;
 }
 
 #resume .resume-timeline {
@@ -2245,7 +2234,7 @@ header .logo a {
 }
 
 .popup-modal .link-box a:hover {
-    background: slategray;
+    background: #754a4d;
     border: none;
 }
 
@@ -2421,7 +2410,7 @@ header .logo a {
 }
 
 #services .section-intro h5 {
-    color: darkslateblue;
+    color: #810007;
 }
 
 #services .section-intro p {
@@ -2449,7 +2438,7 @@ header .logo a {
 
 .services-list .icon i {
     font-size: 5.4rem;
-    color: darkslateblue;
+    color: #810007;
 }
 
 .services-list h3 {
@@ -2481,7 +2470,7 @@ header .logo a {
 }
 
 .owl-theme .owl-controls .owl-page.active span {
-    background: darkslateblue;
+    background: #810007;
 }
 
 /**
@@ -2491,7 +2480,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-    background: slategray;
+    background: #754a4d;
     padding-top: 0;
     padding-bottom: 0;
     text-align: center;
@@ -2576,7 +2565,7 @@ header .logo a {
 }
 
 #contact .section-intro h5 {
-    color: darkslateblue;
+    color: #810007;
 }
 
 #contact .section-intro p {
@@ -2638,7 +2627,7 @@ header .logo a {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: darkslateblue;
+    background: #810007;
 }
 
 #contact form .form-field label::after {
@@ -2648,7 +2637,7 @@ header .logo a {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid darkslateblue;
+    border-right: 5px solid #810007;
     content: "";
 }
 
@@ -2673,7 +2662,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-    border-color: darkslateblue;
+    border-color: #810007;
     color: #FFFFFF;
 }
 
@@ -2683,7 +2672,7 @@ header .logo a {
 }
 
 #contact textarea:focus {
-    border-color: darkslateblue;
+    border-color: #810007;
     color: #FFFFFF;
 }
 
@@ -2696,12 +2685,12 @@ header .logo a {
     padding: 0 3rem;
     margin-top: 4.8rem;
     width: 100%;
-    background: darkslateblue;
+    background: #810007;
     color: #FFFFFF;
 }
 
 #contact button.submitform:hover, #contact button.submitform:focus {
-    background: slategray;
+    background: #754a4d;
 }
 
 #message-warning, #message-success {
@@ -2718,7 +2707,7 @@ header .logo a {
 }
 
 #message-success {
-    color: darkslateblue;
+    color: #810007;
 }
 
 #message-warning i, #message-success i {
@@ -2752,7 +2741,6 @@ header .logo a {
 }
 
 .contact-info {
-    margin: 4.8rem auto 0;
     font-family: "poppins-regular", sans-serif;
     font-size: 1.5rem;
     text-align: center;
@@ -2772,7 +2760,7 @@ header .logo a {
 }
 
 .contact-info h5 {
-    color: darkslateblue;
+    color: #810007;
 }
 
 /**
@@ -2852,7 +2840,7 @@ footer a, footer a:visited {
 }
 
 footer a:hover, footer a:focus {
-    color: darkslateblue;
+    color: #810007;
 }
 
 footer .row {
@@ -2889,7 +2877,6 @@ footer .copyright span {
 footer .copyright span::after {
     content: "|";
     display: inline-block;
-    padding: 0 1rem 0 1.2rem;
     color: rgba(255, 255, 255, 0.1);
 }
 
@@ -2942,7 +2929,7 @@ footer .copyright span:last-child::after {
     height: 6.6rem;
     width: 6rem;
     line-height: 6.6rem;
-    background: slategray;
+    background: #754a4d;
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
