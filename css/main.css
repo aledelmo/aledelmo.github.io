@@ -1200,7 +1200,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro {
-
     text-align: center;
     position: relative;
 }
@@ -1218,6 +1217,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.6rem;
     line-height: 1.875;
     margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
     letter-spacing: .4rem;
 }
 
@@ -1712,8 +1712,8 @@ header .logo a {
  */
 #about {
     background: #FFFFFF;
-    padding-top: 12rem;
-    padding-bottom: 15rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #about .section-intro {
@@ -1855,8 +1855,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #resume .resume-header {
