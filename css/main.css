@@ -1915,8 +1915,9 @@ header .logo a {
 #resume .timeline-header {
     float: left;
     width: 35%;
-    padding-right: 90px;
+    padding-right: 30px;
     text-align: right;
+    min-width: min-content;
 }
 
 #resume .timeline-header h3 {
@@ -1957,7 +1958,8 @@ header .logo a {
  */
 @media only screen and (max-width: 1024px) {
     #resume .timeline-header {
-        padding-right: 50px;
+        padding-right: 30px;
+        min-width: min-content;
     }
 
     #resume .timeline-header h3 {
