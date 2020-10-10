@@ -497,6 +497,10 @@ textarea {
 		padding: 0 18px;
 	}
 
+	.tab-full {
+		width: 100%;
+	}
+
 }
 
 /**
