@@ -91,6 +91,10 @@ h1 {
 	margin: 0.67em 0;
 }
 
+h1 span {
+	font-size: .8em;
+}
+
 mark {
 	background: #ff0;
 	color: #000;
